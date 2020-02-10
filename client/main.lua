@@ -70,7 +70,6 @@ Citizen.CreateThread(function()
 						FreezeEntityPosition(v.object, doorID.locked)
 						DoorSystemSetDoorState(v.object, doorID.locked)
 
-
 						if doorID.locked and v.objYaw and GetEntityRotation(v.object).z ~= v.objYaw then
 							SetEntityRotation(v.object, 0.0, 0.0, v.objYaw, 2, true)
 						end
@@ -98,7 +97,7 @@ Citizen.CreateThread(function()
 						PromptSetEnabled(OpenPrompt, true)
 						PromptSetVisible(OpenPrompt, true)
 
-													prompt = true
+						prompt = true
 					end
 					if PromptHasHoldModeCompleted(OpenPrompt) and timeHeld < 1 then
 						timeHeld = timeHeld + 5

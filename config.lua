@@ -2,6 +2,67 @@ Config = {}
 
 Config.DoorList = {
 
+	--
+	-- Prison
+	-- Wood Gates
+	{
+		authorizedJobs = { 'police' },
+		objCoords  = vector3(3332.36, -700.66, 44.03),
+		textCoords  = vector3(3332.36, -700.66, 45.00),
+		locked = true,
+		objYaw = -47.75,
+		distance = 1.5	
+	},
+	{
+		authorizedJobs = { 'police' },
+		objCoords  = vector3(3333.38, -701.63, 44.03),
+		textCoords  = vector3(3333.38, -701.63, 45.00),
+		locked = true,
+		objYaw = -47.98,
+		distance = 1.5	
+	},
+	{
+		authorizedJobs = { 'police' },
+		objCoords  = vector3(3326.39, -705.82, 44.03),
+		textCoords  = vector3(3326.39, -705.82, 45.00),
+		locked = true,
+		objYaw = -47.75,
+		distance = 1.5	
+	},
+	{
+		authorizedJobs = { 'police' },
+		objCoords  = vector3(3327.55, -706.97, 44.03),
+		textCoords  = vector3(3327.55, -706.97, 45.00),
+		locked = true,
+		objYaw = -47.98,
+		distance = 1.5	
+	},
+
+	-- prison tower gates
+	{
+		authorizedJobs = { 'police' },
+		objCoords  = vector3(3369.55, -723.64, 44.24),
+		textCoords  = vector3(3369.55, -723.64, 45.00),
+		locked = true,
+		objYaw = -179.4,
+		distance = 3	
+	},
+	{
+		authorizedJobs = { 'police' },
+		objCoords  = vector3(3407.35, -677.74, 45.46),
+		textCoords  = vector3(3406.75, -678.59, 46.50),
+		locked = true,
+		objYaw = -99.41,
+		distance = 3	
+	},
+	{
+		authorizedJobs = { 'police' },
+		objCoords  = vector3(3384.61, -639.48, 45.46),
+		textCoords  = vector3(3385.26, -640.28, 46.50),
+		locked = true,
+		objYaw = -29.41,
+		distance = 3	
+	},
 
 	--
 	-- Valentine Sheriff Office

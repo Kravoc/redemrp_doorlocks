@@ -3,7 +3,7 @@ local DoorInfo	= {}
 RegisterServerEvent('redemrp_doorlocks:updatedoorsv')
 AddEventHandler('redemrp_doorlocks:updatedoorsv', function(source, doorID, cb)
     local _source = tonumber(source)
-    TriggerEvent('redemrp:getPlayerFromId', _source, function(user)        
+	TriggerEvent('redemrp:getPlayerFromId', _source, function(user)
         if not IsAuthorized(user.getJob(), Config.DoorList[doorID]) then
 			TriggerClientEvent('chatMessage', source, "", {0, 0, 200}, "^1You do not have a key!^0")
             return

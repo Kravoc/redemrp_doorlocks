@@ -131,11 +131,11 @@ Config.DoorList = {
 		doors = {
 			{
 				objYaw = -170.0,
-				objCoords = vector3(-306.89, 780.11, 117.72)
+				objCoords = vector3(-308.86, 779.12, 118.7)
 			},
 			{
 				objYaw = 10.05,
-				objCoords = vector3(-309.06, 779.73, 117.72)
+				objCoords = vector3(-309.06, 779.73, 118.7)
 			}
 		}
 	},
